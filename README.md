@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Demo
+Checkout the demo at https://weatherreactapp.github.io/ .
+This app does support persian in searching for cities .
+
 ## Available Scripts
 
 In the project directory, you can run:
