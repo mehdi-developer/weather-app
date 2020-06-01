@@ -1,0 +1,61 @@
+.App {
+	height: 100vh;
+	transition: all .8s !important;
+
+	&.rain {
+		background: rgb(121, 204, 204);
+	}
+	&.clear {
+		background: rgb(185, 192, 255);
+	}
+
+	&.haze {
+		background: rgb(231, 152, 205);
+	}
+
+	&.mist {
+		background: rgb(196, 117, 228);
+	}
+	&.snow {
+		background: rgb(241, 177, 236);
+	}
+	&.clouds {
+		background: rgb(208, 107, 255);
+	}
+	&.thunder {
+		background: rgb(41, 101, 156);
+	}
+	&.normal {
+		background: rgb(207, 207, 207);
+	}
+	&.smoke {
+		background: rgb(245, 110, 110);
+	}
+}
+
+.font {
+	font-family: 'Nunito', sans-serif !important;
+}
+
+.line {
+	height: 1px;
+	background: white;
+	opacity: .3;
+	width: 100%;
+}
+
+.mobile {
+	@media (max-width: 330px) {
+		font-size: .9em;
+	}
+}
+.mobilee {
+	@media (max-width: 330px) {
+		font-size: 1.4em;
+	}
+}
+
+.wrapper {
+	overflow: hidden;
+	overflow-y: scroll;
+}
